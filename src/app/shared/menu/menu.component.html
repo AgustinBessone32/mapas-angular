@@ -1,0 +1,4 @@
+<ul class="list-gtoup">
+    <li *ngFor="let item of menuItems" class="list-group-item" [routerLink]="item.ruta" routerLinkActive="active">
+        {{item.nombre | titlecase}}</li>
+</ul>
