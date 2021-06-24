@@ -25,10 +25,6 @@ export class MenuComponent implements OnInit {
       ruta: 'mapas/marcadores',
       nombre: 'marcadores'
     },
-    {
-      ruta: 'mapas/propiedades',
-      nombre: 'propiedades'
-    }
   ]
 
   constructor() { }
