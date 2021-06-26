@@ -15,11 +15,11 @@ export class MenuComponent implements OnInit {
   menuItems: MenuItem[] = [
     {
       ruta: 'mapas/fullscreen',
-      nombre: 'fullscreen'
+      nombre: 'pantalla completa'
     },
     {
       ruta: 'mapas/zoom-range',
-      nombre: 'zoom range'
+      nombre: 'realizar zoom'
     },
     {
       ruta: 'mapas/marcadores',
