@@ -9,7 +9,7 @@ const routes: Routes = [
   {
     path: '',
     children: [
-      { path: 'fullscreen', component: FullScreenComponent },
+      { path: 'mapas-angular/fullscreen', component: FullScreenComponent },
       { path: 'zoom-range', component: ZoomRangeComponent },
       { path: 'marcadores', component: MarcadoresComponent },
       { path: '**', redirectTo: 'fullscreen' }
